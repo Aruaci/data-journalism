@@ -183,19 +183,7 @@ footer::before {
     color: #E60000;
     border-color: #E60000;
 }
-.icon-link img {
-    width: 16px;       
-    height: 16px;         
-    vertical-align: baseline; 
-    margin-left: 6px;    
-    opacity: 0.8;          
-    transition: 0.2s;
-}
 
-.icon-link img:hover {
-    opacity: 1;       
-    transform: scale(1.1); 
-}
 .copyright {
     margin: 0;
     font-size: 0.9rem;
@@ -289,3 +277,4 @@ section img {
     }
 
 }
+
