@@ -190,6 +190,13 @@ footer::before {
     color: #888;
 }
 
+.lupe-icon {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
 em {
     color: #ccc;
     font-style: italic;
@@ -277,4 +284,5 @@ section img {
     }
 
 }
+
 
