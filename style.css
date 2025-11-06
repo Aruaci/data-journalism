@@ -191,8 +191,10 @@ footer::before {
 }
 
 .lupe-icon {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    display: inline-block;
     vertical-align: middle;
     margin-left: 6px;
 }
@@ -284,5 +286,6 @@ section img {
     }
 
 }
+
 
 
