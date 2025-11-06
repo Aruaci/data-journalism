@@ -191,8 +191,8 @@ footer::before {
 }
 
 .lupe-icon {
-    width: 8px;
-    height: 8px;
+    width: 14px;
+    height: 14px;
     object-fit: contain;
     display: inline-block;
     vertical-align: middle;
@@ -286,6 +286,7 @@ section img {
     }
 
 }
+
 
 
 
