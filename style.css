@@ -121,6 +121,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 2rem;
+    caption-side: bottom;
 }
 
 th,
@@ -212,10 +213,10 @@ em {
 }
 
 section img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin: 1.5rem 0;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0 0.5rem 0;
 }
 
 .red {
@@ -265,10 +266,18 @@ figure img {
 
 figcaption {
   margin-top: 0px;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: #818181;
   font-style: italic;
   text-align: center;
+}
+
+table caption {
+  font-size: 0.85rem;
+  color: #818181;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.5rem; 
 }
 
 @media (max-width: 768px) {
