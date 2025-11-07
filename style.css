@@ -191,10 +191,8 @@ footer::before {
 }
 
 .lupe-icon {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
-    display: inline-block;
+    width: 12px;
+    height: 12px;
     vertical-align: middle;
     margin-left: 6px;
 }
@@ -225,7 +223,7 @@ section img {
 
 .wordcloud-item {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
@@ -234,14 +232,14 @@ section img {
     flex-direction: row-reverse;
 }
 
-.wordcloud-item > .wordcloud {
+.wordcloud-item>.wordcloud {
     flex: 0 0 50%;
     width: 50%;
     height: auto;
     margin: 0;
 }
 
-.wordcloud-item > p {
+.wordcloud-item>p {
     flex: 1;
     margin: 0;
 }
@@ -284,6 +282,17 @@ section img {
     footer::before {
         max-width: 95%;
     }
+
+    .wordcloud-item,
+    .wordcloud-item-reverse {
+        flex-direction: column;
+    }
+
+    .wordcloud-item>.wordcloud {
+        width: 100%;
+        margin: 0 auto 1rem auto;
+        flex-basis: auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -307,12 +316,4 @@ section img {
     h3 {
         margin-bottom: 1.2rem;
     }
-
 }
-
-
-
-
-
-
-
