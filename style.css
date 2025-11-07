@@ -191,7 +191,7 @@ footer::before {
 }
 
 .lupe-icon {
-    width: 40px;
+    width: 60px;
     float: right;
     margin-left: 12px;
 }
@@ -317,4 +317,5 @@ section img {
     }
 
 }
+
 
