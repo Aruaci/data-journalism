@@ -190,22 +190,11 @@ footer::before {
     color: #888;
 }
 
-.text-with-icon {
-    display: flex;
-    align-items: center;
-    gap: 12px;             
-}
-
-.text-with-icon p {
-    margin: 0;           
-}
-
 .lupe-icon {
-    width: 40px;         
-    height: auto;
-    cursor: pointer;
+    width: 40px;
+    float: right;
+    margin-left: 12px;
 }
-
 
 em {
     color: #ccc;
@@ -328,3 +317,4 @@ section img {
     }
 
 }
+
