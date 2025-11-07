@@ -285,29 +285,96 @@
 
             <div class="wordcloud-item">
                 <img src="./plots/wordcloud_justus.png" class="wordcloud">
-                <p>Bei <span class="character-justus">Justus Jonas</span> thront ein Wort über allen anderen: "Kollegen". Es ist bei ihm weitaus
-                    präsenter als bei Bob oder Peter und zementiert seine Rolle als Anführer, der das Team als
-                    professionelle Einheit sieht und koordiniert. Begriffe wie "muss", "finden" und "weiß"
-                    unterstreichen
-                    zusätzlich seinen logischen, faktenbasierten Ansatz.</p>
+                <p>Bei <span class="character-justus">Justus Jonas</span> dominiert <strong>"Kollegen"</strong> (0.86),
+                    was seine Rolle als Anführer zementiert, der das Team professionell koordiniert. Seine analytische,
+                    faktenbasierte Herangehensweise wird durch Wörter wie <strong>"müssen"</strong> (0.81),
+                    <strong>"wissen"</strong> (0.53) und <strong>"Fall"</strong> (0.42) unterstrichen.</p>
             </div>
 
             <div class="wordcloud-item">
                 <img src="./plots/wordcloud_bob.png" class="wordcloud">
-                <p>Und bei <span class="character-bob">Bob Andrews</span> wird die Wolke von Lauten wie "Na", "Ja", "Ah" und "Hm" dominiert. Bob ist der
-                    reflektierende Part; er verarbeitet Informationen oft hörbar, stellt Rückfragen und ist im ständigen
-                    Dialog mit "Just", was ebenfalls eines seiner größten Wörter ist.</p>
+                <p>Bei <span class="character-bob">Bob Andrews</span> steht die Rolle des Reflektierenden im
+                    Vordergrund. Seine Wolke wird ebenfalls von Lauten wie <strong>"Na"</strong> (1.0) und
+                    <strong>"äh"</strong> (0.84) dominiert, die bei ihm jedoch das aktive Verarbeiten von Informationen
+                    signalisieren (z.B. <strong>"Aha"</strong>, <strong>"Ähm"</strong>). Mit Wörtern wie
+                    <strong>"Sag"</strong> (0.28) und <strong>"Moment"</strong> (0.30) stellt er Rückfragen und ordnet
+                    die Fakten.</p>
             </div>
 
             <div class="wordcloud-item">
                 <img src="./plots/wordcloud_peter.png" class="wordcloud">
-                <p>Ganz anders <span class="character-peter">Peter Shaw</span>, Seine Wolke ist ein wahres Feuerwerk an emotionalen Reaktionen. Sie wird,
-                    ähnlich
-                    wie bei Bob, von Lauten wie "Na", "Hm", "Ah" und "Naja" beherrscht. Dies spiegelt perfekt seine
-                    impulsive und oft auch ungeduldige Art wider. Während Justus analysiert und Bob reflektiert, ist
-                    Peter
-                    derjenige, der als Erster hörbar auf eine Entdeckung oder eine Gefahr reagiert.</p>
+                <p>Ganz anders <span class="character-peter">Peter Shaw</span>. Sein Sprachprofil ist ein Feuerwerk an
+                    emotionalen Reaktionen, dominiert von lautsprachlichen Äußerungen wie <strong>"Hm"</strong> (1.0),
+                    <strong>"Na"</strong> (0.95) und <strong>"Ach"</strong> (0.78). Diese spiegeln seine impulsive, oft
+                    ungeduldige Art wider. Er ist derjenige, der als Erster hörbar auf Gefahr oder Überraschung reagiert
+                    (z.B. <strong>"Oh"</strong>, <strong>"Hä"</strong>).</p>
             </div>
+           <table>
+            <thead>
+                <tr>
+                    <th>Charakter</th>
+                    <th>Einzigartiges / Markantes Wort</th>
+                    <th>Rel. Frequenz</th>
+                    <th>Analyse</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="character-justus">Justus Jonas</span></td>
+                    <td><strong>"Kollegen"</strong></td>
+                    <td><strong>0.858</strong> (vs. 0.096 / 0.112)</td>
+                    <td>Das offensichtlichste Beispiel. Er ist der Einzige, der diesen Begriff konsequent nutzt, was ihn klar als Anführer der "Firma" positioniert.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-justus">Justus Jonas</span></td>
+                    <td><strong>"Fall"</strong></td>
+                    <td><strong>0.417</strong> (vs. 0.168 / 0.228)</td>
+                    <td>Justus fokussiert sich auf das "große Ganze". Für ihn ist alles Teil des "Falls", den es logisch zu lösen gilt.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-justus">Justus Jonas</span></td>
+                    <td><strong>"Sir"</strong></td>
+                    <td><strong>0.334</strong> (vs. 0.000 / 0.080)</td>
+                    <td>Zeigt seine höfliche, oft fast altkluge Art im Umgang mit Klienten und Autoritätspersonen.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-peter">Peter Shaw</span></td>
+                    <td><strong>"Hä"</strong></td>
+                    <td><strong>0.230</strong> (vs. 0.077 / 0.000)</td>
+                    <td>Die perfekte Zusammenfassung seiner impulsiven Reaktion. Er spricht oft aus, was er im ersten Moment denkt: Verwirrung oder Ungläubigkeit.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-peter">Peter Shaw</span></td>
+                    <td><strong>"lacht"</strong></td>
+                    <td><strong>0.331</strong> (vs. 0.128 / 0.135)</td>
+                    <td>Dieser Eintrag (vermutlich eine Regieanweisung im Skript) ist bei Peter 2.5x häufiger. Es unterstreicht seine emotionale, reaktive Natur.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-peter">Peter Shaw</span></td>
+                    <td><strong>"Mensch"</strong></td>
+                    <td><strong>0.172</strong> (vs. 0.136 / 0.000)</td>
+                    <td>Ein klassischer "Peter-Ausruf", den er fast exklusiv verwendet, um Frustration oder Überraschung auszudrücken.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-bob">Bob Andrews</span></td>
+                    <td><strong>"Sag"</strong></td>
+                    <td><strong>0.283</strong> (vs. 0.000 / 0.248)</td>
+                    <td>Typisch für Bobs Rolle als Rechercheur. Er fordert aktiv Informationen ein ("Sag mal...", "Sag, was weißt du..."), um sein Archiv zu füttern.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-bob">Bob Andrews</span></td>
+                    <td><strong>"OK"</strong></td>
+                    <td><strong>0.284</strong> (vs. 0.000 / 0.099)</td>
+                    <td>Bob ist derjenige, der Informationen aufnimmt und bestätigt. Ein "OK" signalisiert oft, dass er die Info verarbeitet oder einen Auftrag annimmt.</td>
+                </tr>
+                <tr>
+                    <td><span class="character-bob">Bob Andrews</span></td>
+                    <td><strong>"irgendwas"</strong></td>
+                    <td><strong>0.152</strong> (vs. 0.000 / 0.000)</td>
+                    <td>Ein Wort, das perfekt zu Bobs investigativem Spürsinn passt. Er sucht nach "irgendwas" – einem Detail, einer Spur, einer Information.</td>
+                </tr>
+            </tbody>
+        </table>
 
         </section>
 
