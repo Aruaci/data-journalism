@@ -253,6 +253,24 @@ section img {
     margin: 0;
 }
 
+figure {
+  margin: 20px 0;
+  width: 100%;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 0px;
+  font-size: 0.8rem;
+  color: #818181;
+  font-style: italic;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.8rem;
