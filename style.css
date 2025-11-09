@@ -367,3 +367,10 @@ table caption {
 
 
 }
+
+.quelle a,
+.quelle a:visited,
+.quelle a:active,
+.quelle a:hover {
+  color: #f5f5f5;
+}
