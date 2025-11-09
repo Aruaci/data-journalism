@@ -30,6 +30,12 @@ header h2 {
     color: #aaaaaa;
 }
 
+header h3 {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+
 main {
     max-width: 800px;
     margin: 2rem auto;
@@ -358,5 +364,6 @@ table caption {
     h3 {
         margin-bottom: 1.2rem;
     }
+
 
 }
